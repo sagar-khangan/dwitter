@@ -1,0 +1,43 @@
+#Django Rest Based Dwitter App
+
+## Setup
+
+> virtualenv venv
+
+> source venv/bin/activate
+
+> pip install requirements.txt
+
+> python manage.py runserver
+
+*Note* : Test DB has sample data
+
+*Note* : Super user : admin/assignment
+
+## Apis
+** Admin : localhost:8000/admin
+
+** Base api - http://localhost:8000/api
+
+> Some Sample Routes:
+
+** Authentication  - POST /auth
+
+** Create Dweeter - POST /dweeters-auth/
+
+** Get Dweets from followed Dweeters - GET /dweets
+
+** Create Dweets = POST /dweets
+
+** Search Dweets  - GET /dweets/search
+
+** Like Dweets - GET /dweets/like_dweet?dweet=<dweet id>
+
+** Get Liked Dweets - GET /dweets/liked_dweets
+
+** Get Dweeters - GET /dweeters/
+
+** Follow Dweeter - GET /dweeters/follow_dweeter?dweeter=<dweeter id>
+
+** Comment on Dweet - POST /dweetcomment/
+
