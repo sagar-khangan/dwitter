@@ -25,6 +25,8 @@
 
 ** Create Dweeter - POST /dweeters-auth/
 
+*Note* - Auth Token to be added to Authorization Header  - Token <token>
+
 ** Get Dweets from followed Dweeters - GET /dweets
 
 ** Create Dweets = POST /dweets
